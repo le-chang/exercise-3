@@ -1,0 +1,6 @@
+pacman::p_load(ggplot2)
+pacman::p_load(readr)
+pacman::p_load(dplyr)
+pacman::p_load(tdlyr)
+df <- read_tsv(file = "../data/dpyd_gnomad.tsv")
+head(df)
